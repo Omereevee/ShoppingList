@@ -24,7 +24,7 @@ img {
 
 input {
     color: #432000;
-    background-color: #f0dbf1;
+    background-color: #f4e7f5;
     border: 0;
     padding: 15px;
     border-radius: 8px;
@@ -72,7 +72,7 @@ ul li {
 }
 
 ul li:hover {
-    background-color: #b19380;
+    background-color:   #f0dbf1;
     cursor: pointer;
 }
 
