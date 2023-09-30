@@ -1,9 +1,20 @@
+// import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+// import { getDatabase, ref, push ,onValue ,remove } from  "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+ 
 import { initializeApp } from  "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
 import { getDatabase, ref, push ,onValue ,remove } from  "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
-
+// Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyBOoAO3w3x2b6U2CVDcCKvbFfbjvw2OdFQ",
+    authDomain: "new-database-48823.firebaseapp.com",
+    projectId: "new-database-48823",
+    storageBucket: "new-database-48823.appspot.com",
+    messagingSenderId: "122457576549",
+    appId: "1:122457576549:web:ae70b3cbc7b2ecb614228c"
+  };
 
 const appSettings = {
-    databaseURL: "https://realtime-database-3da23-default-rtdb.firebaseio.com/"
+    databaseURL: "https://new-database-48823-default-rtdb.firebaseio.com/"
 }
 
 
