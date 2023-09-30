@@ -25,7 +25,7 @@ img {
 input {
     color: #432000;
     background-color: #f4e7f5;
-    border: 0;
+    border: 0px 0px solid #fff;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
@@ -78,4 +78,7 @@ ul li:hover {
 
 li{
     background-color: #ffa748;   
+}
+#input-field{
+    border: 0px 0px solid snow;
 }
