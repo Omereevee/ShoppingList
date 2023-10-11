@@ -25,7 +25,6 @@ img {
 input {
     color: #432000;
     background-color: #f4e7f5;
-    border: 0px 0px solid #fff;
     padding: 15px;
     border-radius: 8px;
     font-size: 20px;
@@ -52,6 +51,7 @@ button:hover {
 }
 
 ul {
+    text-transform: capitalize;
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -60,6 +60,7 @@ ul {
 }
 
 ul li {
+    text-transform: capitalize;
     font-size: 40px;
     background-color: #ffffff;
     padding: 15px;
@@ -80,5 +81,5 @@ li{
     background-color: #ffa748;   
 }
 #input-field{
-    border: 0px 0px solid snow;
+    text-transform: capitalize;
 }
