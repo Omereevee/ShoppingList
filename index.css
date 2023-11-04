@@ -17,7 +17,6 @@ html{
     margin: 0;
     padding: 0;
     background-color:var(--baground);
-    color: #100a05;
    user-select: none; 
    font-family:var(--family);
 }
@@ -74,7 +73,7 @@ ul {
 }
 
 ul li {
-    max-width: 320px;
+    max-width: 700px;
     text-transform: capitalize;
     font-size: 40px;
     background-color: #ffffff;
