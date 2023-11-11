@@ -1,8 +1,8 @@
 :root{
---baground:#7ed0f6;
---input:#cbf2f5;
---send:#97cbe0;
---message_delete:#8bc3e8;
+--baground:#7ef69c;
+--input:#cbf5d5;
+--send:rgb(151, 224, 179);
+--message_delete:#8be8c7;
 --family: 'Satisfy', cursive;
 }
 body{margin: 0;
