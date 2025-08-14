@@ -1,98 +1,98 @@
-:root{
---baground:#4dbc68;
---input:#cbf5d5;
---send:rgb(147, 228, 178);
---message_delete:#8be8c7;
---family: 'Satisfy', cursive;
+:root {
+  --baground: #f3e0b2;
+  --input: #f3d285;
+  --send: #e2c98f;
+  --message_delete: #8be8c7;
+  --family: "Satisfy", cursive;
 }
-body{margin: 0;
-    padding: 0;
-    background-color:var(--baground);
-    color: #100a05;
-   user-select: none; 
-   font-family: var(--family);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--baground);
+  color: #100a05;
+  user-select: none;
+  font-family: var(--family);
 }
 
-html{
-    margin: 0;
-    padding: 0;
-    background-color:var(--baground);
-   user-select: none; 
-   font-family:var(--family);
+html {
+  margin: 0;
+  padding: 0;
+  background-color: var(--baground);
+  user-select: none;
+  font-family: var(--family);
 }
 
 .container {
-    padding: 34px;
-    display: flex;
-    flex-direction: column;
-    max-width: 620px;
-    margin: 30px auto;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  max-width: 620px;
+  margin: 30px auto;
 }
 
 img {
-    width: 100%;
-    margin: 0 auto;
-    height: 100%;
+  width: 200px;
+  margin: 0 auto;
 }
 
 input {
-    color: #1c1c29;
-    background-color:var(--input) ;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    margin: 10px 0;
-    font-size: 40px;
-    font-family:var(--family);
+  color: #1c1c29;
+  background-color: var(--input);
+  padding: 15px;
+  border-radius: 0%;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 40px;
+  font-family: var(--family);
 }
 
 button {
-    color: rgb(15, 16, 22);
-    background-color: var(--send);
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    font-size: 40px;
-    font-family: var(--family);
+  color: rgb(15, 16, 22);
+  background-color: var(--send);
+  border: 0;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--family);
 }
 
-button:hover { 
-    cursor: pointer;
+button:hover {
+  cursor: pointer;
 }
 
 ul {
-    text-transform: capitalize;
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+  text-transform: capitalize;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 ul li {
-    min-width: 300px;
-    max-width: 700px;
-    text-transform: capitalize;
-    font-size: 40px;
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 8px;
-    flex-grow: 1;
-    text-align: center;
-    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+  min-width: 300px;
+  max-width: 700px;
+  text-transform: capitalize;
+  font-size: 40px;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  text-align: center;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
 ul li:hover {
-    background-color:var(--message_delete);
-    cursor: pointer;
+  background-color: var(--message_delete);
+  cursor: pointer;
 }
 
-li{
-    background-color: #ffffff;   
+li {
+  background-color: #ffffff;
 }
-#input-field{
-    text-transform: capitalize;
+#input-field {
+  text-transform: capitalize;
 }
